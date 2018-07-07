@@ -25,9 +25,9 @@ pipeline {
             result = ${result}''',
                      mimeType: 'text/html',
                      recipientProviders: [culprits()],
-                     replyTo: 'dhinojosa@evolutionnext.com',
+                     replyTo: 'mayankmajorwar@gmail.com',
                      subject: '${BUILD_ID} is ${currentBuild.result}',
-                     to: 'dhinojosa@evolutionnext.com'
+                     to: 'mayankmajorwar@gmail.com'
          }
       }
     }
