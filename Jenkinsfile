@@ -11,7 +11,7 @@ pipeline {
           }
         }
 
-        tool(name: 'apache-maven-3.5.2', type: 'maven')
+        tool(name: 'Maven 3.0.5', type: 'maven')
       }
       post {
          always {
